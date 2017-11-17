@@ -1,0 +1,251 @@
+html {
+font-weight: 500;
+background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/gaming-pattern.png');
+background-size: 25%;
+background-attachment: fixed;
+z-index:99;
+position:relative;
+width:auto;
+}
+h1{
+padding:15px;
+display:inline;
+text-align:center;
+}
+ body {
+display: block;
+font-family: 'Lobster', cursive;
+/*background-color:rgba(228, 214, 143, 0.6);*/
+margin:  auto;
+width: auto;
+} 
+p{
+padding-top:60px;
+}
+.starter{
+height:  90vh;
+background-color:white;
+width: 90vw;
+display:inline-block;
+position: center;
+}
+.long-dick{
+width:90vw;
+margin: 0 auto;
+height: 0px;
+z-index:2;
+display:block;
+position:absolute;
+background-color: rgba(0,0,0,0.87);
+  -webkit-transition: 0.85s all ease-in-out; 
+   -moz-transition: 0.85s all ease-in-out; 
+     -o-transition: 0.85s all ease-in-out; 
+        transition: 0.85s all ease-in-out;
+ }
+ .boobies{
+position: absolute;
+margin-top:15%;
+width: 90vw;
+z-index:3;
+text-align: center;
+letter-spacing:1px;
+}
+.box {
+width: 90vw;
+height:90vh;
+margin: 35px auto;
+display:block;
+background-color:rgba(0,0,0,87);
+  background-image: url('https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/19275157_10158926575860154_8995226242654266975_n.jpg?oh=95ad226eab3afb62dacb90071567db15&oe=5A9B71D4');
+  background-size:cover;
+  -webkit-transition: 0.2s all ease-in-out; 
+   -moz-transition: 0.2s all ease-in-out; 
+     -o-transition: 0.2s all ease-in-out; 
+        transition: 0.2s all ease-in-out;
+}
+.box:hover .long-dick {
+ height:90vh;
+ cursor: pointer;
+}
+#logo:hover {
+    margin-top:30px;
+}
+img{
+position:center;
+  display:block;
+  width:600px;
+  margin: 0 auto;
+  border: 5px dashed white;
+  z-index: 3;
+}
+  p, h6, h1{
+  color: white;
+  text-align: center;
+  }
+  #subdiv{
+  /*width: 10px;*/
+  height: 90vh;
+  position: absolute;
+  display: block;
+  content:'';
+  background-image: url('http://exonerd.pixelpier.com/blacks.jpg');
+  /*left:-232px;*/
+  z-index: 5;
+      -webkit-transition: 0.7s all ease-in-out; 
+   -moz-transition: 0.7s all ease-in-out; 
+     -o-transition: 0.7s all ease-in-out; 
+        transition: 0.7s all ease-in-out;
+  }
+  #subdiv:hover {
+  /*width: 300px;*/
+  }
+
+  .menu {
+  position:relative;
+  top:10px;
+  display:block;
+  left:15px;
+  z-index:99;
+    -webkit-transition: 0.2s all ease-in-out; 
+   -moz-transition: 0.2s all ease-in-out; 
+     -o-transition: 0.2s all ease-in-out; 
+        transition: 0.2s all ease-in-out;
+        }
+        
+  .menu:hover{
+ top: 15px;
+  }
+  
+  
+.bar1, .bar2, .bar3{
+z-index: 99;
+position: absolute;
+display: block;
+cursor: pointer;
+background:white;
+width: 30px;
+height:5px;
+content: '';
+-webkit-transition: 0.2s all ease-in-out; 
+   -moz-transition: 0.2s all ease-in-out; 
+     -o-transition: 0.2s all ease-in-out; 
+        transition: 0.2s all ease-in-out;
+}
+.bar1{
+margin-top:10px;
+}
+.bar2{ 
+margin-top: 20px;
+
+}
+.bar3{
+margin-top: 30px;
+}
+.bar1:hover{
+opacity: 0.5;
+}
+.bar2:hover{
+opacity: 0.5;
+}
+.bar3:hover{
+opacity: 0.5;
+}
+.socials{
+position: relative;
+width:auto;
+text-align:center;
+height:75px;
+}
+.socials a{
+padding:0;
+margin:0;
+font-size:20px;
+width: 40px;
+text-align: center;
+text-decoration: none;
+/*margin: 15px 20px;*/
+display: block;
+height: 30px;
+position:relative;
+}
+.socials li {
+display:inline-block;
+}
+
+.subnav{
+
+}
+
+.subnav ul {
+list-style-type: none;
+color: white;
+  background-size:25%;
+}
+
+.subnav li {
+
+}
+
+
+.subnav li a {
+display: block;
+margin-top: 80px;
+color:white;
+text-decoration: none;
+  background-size:25%;
+}
+
+
+.do{ padding:15px
+font-size:20px;
+width: 40px;
+text-align: center;
+text-decoration: none;
+}
+.do:hover {
+opacity:0.6;
+}
+.socials ul{
+display:inline-block;
+}
+.socials li a{
+height: 40px;
+padding-top: 10px; 
+width: 50px;
+margin-right: 30px;
+border-radius: 100%;
+}
+.do-facebook {
+background: #3B5998;
+color: white;
+-webkit-transition: 0.2s all ease-in-out; 
+   -moz-transition: 0.2s all ease-in-out; 
+     -o-transition: 0.2s all ease-in-out; 
+        transition: 0.2s all ease-in-out;
+}
+.do-facebook:hover{
+margin: 15px;
+}
+.do-twitter {
+background: #1da1f2;
+color: white;
+margin-right: 30px;
+-webkit-transition: 0.2s all ease; 
+   -moz-transition: 0.2s all ease; 
+     -o-transition: 0.2s all ease; 
+        transition: 0.2s all ease;
+}
+.do-twitter:hover{
+margin: 15px;
+}
+.do-google {
+background: #d34836;
+color: white;
+-webkit-transition: 0.2s all ease-in-out; 
+   -moz-transition: 0.2s all ease-in-out; 
+     -o-transition: 0.2s all ease-in-out; 
+        transition: 0.2s all ease-in-out;
+}
+.do-google:hover{
+margin: 15px;
+}
